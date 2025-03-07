@@ -24,6 +24,12 @@ p {
     color: #331F19;
     font-size: 1.1em;
 }
+
+#mensagem{
+
+    font: bold 1.1em Roboto, serif;
+}
+
 button {
     background-color: #60041A;
     color: #F4F0EA;
