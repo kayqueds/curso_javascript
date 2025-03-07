@@ -3,10 +3,10 @@ function adicionarTarefa() {
     // pega o id do input
     let inputTarefa = document.getElementById('inputTarefa')
     // pega o valor do input
-    let tarefa = inputTarefa.value
+    let tarefa = inputTarefa.value;
     
     // se digitar algo faça
-    if (tarefa != ""){
+    if (tarefa != num || tarefa != ""){
         // mensagem de sucesso
         let mensagem = "Tarefa adicionada com sucesso!";
         // pega a mensagem e manda pro parágrafo    
